@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>a weather report</title>
+    <meta name="description" content="A cool thing made with React + Express">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <style>
+    /* audio { display:none;} */
+    audio {
+      position: absolute;
+      right: 0px;      
+    }
+  </style>
+  <body>
+    
+      <div id="main">
+        <!-- the hello world app will be in here! -->
+      </div>
+      <div id="placeaudio">
+        <audio
+        loop = "true"
+        autoplay = "true"
+        id="audio"
+        controls
+        src="weathermix.wav"
+        >
+        </audio>
+      </div>
+
+    
+      <!-- bundle all the scripts! thanks to webpack -->
+      <script type="text/javascript" src="/bundle.js"></script>
+  </body>
+</html>
